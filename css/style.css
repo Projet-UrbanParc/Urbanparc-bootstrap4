@@ -1,0 +1,74 @@
+/*GENERAL*/
+body {
+    font-family: 'Arial', sans-serif;
+}
+@font-face {
+    font-family: "UrbanJungle";
+    src: url("../fonts/UrbanJungleDEMO.otf");
+}
+@font-face {
+    font-family: "ToxTypewriter";
+    src: url("../fonts/ToxTypewriter.ttf");
+}
+h2, h3{
+font-family: "UrbanJungle";
+}
+.page{
+	background-color: #FFFEED;
+}
+
+/*NAV*/
+.div_nav{
+	background-color: rgba(170, 170, 170, 0.8);
+	border-bottom: 3px solid #FB7826;
+  font-family: "UrbanJungle";
+}
+.div_nav a{
+	font-size: 22px;
+	color: #000;
+}
+.dropdown-menu{
+	background-color: rgba(170, 170, 170, 0.8);
+}
+.nav-link{
+	padding: inherit;
+}
+.logo_nav{
+	width: 8%;
+}
+/*------------------------*/
+/*HEADER*/
+header{
+	height: 35em;
+	background-image: url("../images/header_accueil.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-bottom: 4px solid #FB7826;
+}
+/*------------------------*/
+/*MAIN*/
+section {
+margin: 3em;
+}
+hr{
+	border: solid 2px #FB7826;
+	width: 60%;
+}
+/*------------------------*/
+/*PARTENAIRE*/
+span{
+	border-bottom: 4px solid #FB7826;
+}
+#partenaires {
+margin-bottom: 5em;
+
+}
+.div_partenaires{
+	border-top: 3px solid #FB7826;
+background-color: #585858;
+}
+/*------------------------*/
+/*FOOTER*/
+footer{
+	background-color: #313131;
+}
